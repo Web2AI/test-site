@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Site 2</title>
+    <style>
+      img {
+        display: block; /* Ensures each image starts on a new line */
+        margin: 10px 0; /* Adds space between images */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to the Web2AI Test Site</h1>
+      <h2>You are on Page 3.</h2>
+      <p>
+        These pages serve as example pages to test Web2AI scraper
+        functionalities.
+      </p>
+    </header>
+    <main>
+      <section>
+        <h3>Context data</h3>
+        <p>
+          Here is some context data that is repeated on all pages and should not
+          be scraped.
+        </p>
+      </section>
+      <section>
+        <h3>Relevant Data</h3>
+        <p>Another piece of data that should be scraped.</p>
+      </section>
+      <section>
+        <h3>Images</h3>
+        <img
+          loading="lazy"
+          decoding="async"
+          width="370"
+          height="261"
+          src="https://www.pcss.pl/files/2020/05/PCSS_KZ_.jpg"
+          alt=""
+          title="PCSS Księga Znaku"
+          srcset="
+            https://www.pcss.pl/files/2020/05/PCSS_KZ_.jpg         370w,
+            https://www.pcss.pl/files/2020/05/PCSS_KZ_-256x181.jpg 256w,
+            https://www.pcss.pl/files/2020/05/PCSS_KZ_-128x90.jpg  128w
+          "
+          sizes="(max-width: 370px) 100vw, 370px"
+          class="wp-image-27165"
+        />
+      </section>
+      <section>
+        <h3>Links</h3>
+        <a href="index.html">Go to Main Page</a>
+        <a href="page2.html">Go to Page 2</a>
+      </section>
+    </main>
+    <footer>
+      <p>Web2AI Test Site</p>
+    </footer>
+  </body>
+</html>

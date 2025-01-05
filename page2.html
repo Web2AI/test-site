@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Site 2</title>
+    <style>
+      img {
+        display: block; /* Ensures each image starts on a new line */
+        margin: 10px 0; /* Adds space between images */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to the Web2AI Test Site</h1>
+      <h2>You are on Page 2.</h2>
+      <p>
+        These pages serve as example pages to test Web2AI scraper
+        functionalities.
+      </p>
+    </header>
+    <main>
+      <section>
+        <h3>Context data</h3>
+        <p>
+          Here is some context data that is repeated on all pages and should not
+          be scraped.
+        </p>
+      </section>
+      <section>
+        <h3>Relevant Data</h3>
+        <p>Here is some data that should be scraped by the scraper.</p>
+      </section>
+      <section>
+        <h3>Images</h3>
+        <img
+          loading="lazy"
+          decoding="async"
+          width="268"
+          height="99"
+          src="https://www.pcss.pl/files/2020/06/PSNC_01_.jpg"
+          alt=""
+          title="PSNC LOGO ZIP 1"
+          srcset="
+            https://www.pcss.pl/files/2020/06/PSNC_01_.jpg        268w,
+            https://www.pcss.pl/files/2020/06/PSNC_01_-256x95.jpg 256w,
+            https://www.pcss.pl/files/2020/06/PSNC_01_-128x47.jpg 128w
+          "
+          sizes="(max-width: 268px) 100vw, 268px"
+          class="wp-image-27688"
+        />
+        <img
+          loading="lazy"
+          decoding="async"
+          width="272"
+          height="360"
+          src="https://www.pcss.pl/files/2020/06/PCSS.jpg"
+          alt=""
+          title="PCSS"
+          srcset="
+            https://www.pcss.pl/files/2020/06/PCSS.jpg         272w,
+            https://www.pcss.pl/files/2020/06/PCSS-193x256.jpg 193w,
+            https://www.pcss.pl/files/2020/06/PCSS-128x169.jpg 128w
+          "
+          sizes="(max-width: 272px) 100vw, 272px"
+          class="wp-image-27691"
+        />
+      </section>
+      <section>
+        <h2>PDF</h2>
+        <a
+          href="https://box.pionier.net.pl/f/3f5f4aebc1f446279c8c/?dl=1"
+          target="_blank"
+          >PDF link</a
+        >
+      </section>
+      <section>
+        <h3>Links</h3>
+        <a href="index.html">Go to Main Page</a>
+        <a href="page3.html">Go to Page 3</a>
+      </section>
+    </main>
+    <footer>
+      <p>Web2AI Test Site</p>
+    </footer>
+  </body>
+</html>
